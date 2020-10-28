@@ -26,7 +26,6 @@ length = len(two.json())
 
 for x in range(length):
     data = two.json()[x]['name']
-#    print(f"{x} {data}")
 
 if data == str("admin"):
     
