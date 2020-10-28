@@ -1,5 +1,4 @@
 import requests
-import os
 from selenium import webdriver
 
 print("  _                             _           _          ")  
