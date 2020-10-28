@@ -28,7 +28,7 @@ for x in range(length):
 
 if data == str("admin"):
     
-    driver = webdriver.Chrome('C:\webdrivers\chromedriver.exe')
+    driver = webdriver.Chrome('chromedriver.exe')
     driver.get(urllogin)
 
     user_input = driver.find_element_by_id('user_login')
